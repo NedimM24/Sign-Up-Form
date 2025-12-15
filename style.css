@@ -1,7 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex; /* This will help eliminate vertical white space */
+    flex-direction: column;
+    justify-content: space-between; /* This ensures the content fills the space evenly */
+}
+
+.left-side{
+    position: relative;
+    width: 35vw;
+}
+
+.logo-holder{
+    position: absolute;
+    color: black;
+    width: 100%;
+    top: 35%;
+    height: 25%;
+    background-color: rgba(218, 214, 214, 0.5);/* RGBA, A lets us change opacity */
+    text-align: center;
+}
+.left-side .logo-holder img{
+    height: auto;
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+   
+}
+
+.left-side img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .container{
@@ -10,27 +53,20 @@
 }
 
 .right-side{
-    color: black;
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(44, 137, 44));
     width: 65vw;
 }
 
-.right-header{
+.right-header,
+.right-footer{
     border: 1px solid black;
-    height: 33.33vh;
+    height: 30vh;
 }
 
 .right-body{
     border: 1px solid black;
-    height: 33.33vh;
+    height: 40vh;
 }
 
-.right-footer{
-    border: 1px solid black;
-    height: 33.33vh;
-}
 
-img{
-    width: 35vw;
-    height: 100vh;
-}
+
