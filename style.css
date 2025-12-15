@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 40vh;
+    height: 100vh;
+}
