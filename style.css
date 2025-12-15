@@ -37,8 +37,12 @@ body {
     height: auto;
     width: 300px;
     position: relative;
-    bottom: 20px;
+    bottom: 80px;
    
+}
+.logo-text{
+    position: relative;
+    top: 140px;
 }
 
 .left-side img{
