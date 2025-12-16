@@ -6,8 +6,13 @@
 
 :root{
     --primary-text: black;
+
+    --primary-font: "BBH Bartle";
+    --secondary-font:"Montserrat", sans-serif;
+
     --primary-size: 1.5em;
     --secondary-size: 2.2em;
+
 }
 
 
@@ -25,6 +30,7 @@ body {
 .left-side{
     position: relative;
     width: 35vw;
+    
 }
 
 .logo-holder{
@@ -36,7 +42,7 @@ body {
     height: 40vh;
     background-color: rgba(193, 198, 193, 0.5);/* RGBA, A lets us change opacity */
     text-align: center;
-    font-family: "BBH Bartle", sans-serif;
+    font-family: var(--primary-font), sans-serif;
 }
 
 .left-side .logo-holder img{
@@ -65,6 +71,7 @@ body {
 .right-side{
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(77, 129, 25));
     width: 65vw;
+    font-family: var(--secondary-font);
 }
 
 .right-header,
@@ -73,13 +80,19 @@ body {
     height: 30vh;
 }
 
-.p1{
-    font-size: var(--primary-size);  
+.right-header{
+    padding: 62px 30px;
+    
 }
 
+.p1{
+    font-size: var(--primary-size); 
+     
+}
 .p2{
 
     font-size: var(--secondary-size);
+    padding-top: 20px;
 }
 
 .right-body{
