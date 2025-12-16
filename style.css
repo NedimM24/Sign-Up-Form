@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary-text: black;
+}
+
 
 html, body {
     height: 100%;
@@ -24,7 +28,7 @@ body {
 .logo-holder{
     padding-top: 50px;
     position: absolute;
-    color: black;
+    color: var(--primary-text, black);
     width: 100%;
     top: 30%;
     height: 40vh;
