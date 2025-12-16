@@ -27,7 +27,7 @@ body {
     color: black;
     width: 100%;
     top: 30%;
-    height: 295px;
+    height: 40vh;
     background-color: rgba(193, 198, 193, 0.5);/* RGBA, A lets us change opacity */
     text-align: center;
     font-family: "BBH Bartle", sans-serif;
@@ -57,7 +57,7 @@ body {
 }
 
 .right-side{
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(44, 137, 44));
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(77, 129, 25));
     width: 65vw;
 }
 
